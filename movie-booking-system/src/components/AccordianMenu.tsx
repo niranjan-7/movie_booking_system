@@ -10,7 +10,7 @@ const AccordionMenu: React.FC = () => {
 
   const handleYearClick = (year: number) => {
     setActiveYear(activeYear === year ? null : year);
-    setActiveMonth(null); // Reset month selection when changing year
+    setActiveMonth(null); 
   };
 
   const handleMonthClick = (month: string) => {

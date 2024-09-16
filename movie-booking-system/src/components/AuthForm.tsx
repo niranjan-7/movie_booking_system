@@ -16,13 +16,13 @@ const AuthForm: React.FC<AuthFormProps> = ({ isSignup }) => {
     e.preventDefault();
     try {
       if (isSignup) {
-        await signup(username, password, name); // Call signup from AuthContext
+        await signup(username, password, name); 
         alert('Signup successful!'); 
       } else {
-        await login(username, password); // Call login from AuthContext
+        await login(username, password); 
         alert('Login successful!');
       }
-      window.location.href = '/'; // Redirect on success
+      window.location.href = '/'; 
     } catch (error) {
       alert('Login/Signup failed!');
     }

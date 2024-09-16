@@ -8,7 +8,8 @@ const Home: React.FC = () => {
   return (
     <HomeContainer>
       <h1>Welcome to the Movie Booking System</h1>
-      <button onClick={logout}>Logout</button>
+      {/* <button onClick={logout}>Logout</button> */}
+      
     </HomeContainer>
   );
 };

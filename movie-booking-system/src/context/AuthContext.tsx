@@ -1,4 +1,4 @@
-// AuthContext.tsx
+
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useApi, useUserApi } from '../services/api';
 
